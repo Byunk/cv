@@ -6,14 +6,13 @@ export const RESUME_DATA = {
   location: "Seoul, South Korea",
   locationLink: "https://www.google.com/maps/place/Seoul",
   about:
-    "Backend Engineer passionate about solving complex problems and building scalable systems.",
+    "Cloud Engineer @ SAP Labs Korea",
   summary:
-    "As a Backend Engineer, I have contributed on cloud infrastructure and microservices, in order to build scalable, reliable, and sustainable systems. I have an experience in leading teams, building products for solving problems around the world.",
-  avatarUrl: "https://kyungho.me/about/profile.jpg",
+    "As a cloud engineer, I've contributed on architecting reliable and scalable microservices, running on complicated Kubernetes clusters. Currently, I've focused on improving development efficiency and reducing its cost by introducing Istio",
+  avatarUrl: "https://kyungho.me/static/images/profile.jpeg",
   personalWebsiteUrl: "https://kyungho.me",
   contact: {
     email: "kyungho.byoun@gmail.com",
-    tel: "+821086043347",
     social: [
       {
         name: "GitHub",
@@ -25,16 +24,11 @@ export const RESUME_DATA = {
         url: "https://www.linkedin.com/in/kyungho-byoun/",
         icon: LinkedInIcon,
       },
-      // {
-      //   name: "X",
-      //   url: "https://x.com/BartoszJarocki",
-      //   icon: XIcon,
-      // },
     ],
   },
   education: [
     {
-      school: "Korea Advanced Institute of Science and Technology",
+      school: "Korea Advanced Institute of Science and Technology (KAIST)",
       degree: "Bachelor's Degree in Aerospace Engineering and Computer Science",
       start: "2017",
       end: "2024",
@@ -45,19 +39,28 @@ export const RESUME_DATA = {
       company: "SAP Labs Korea",
       link: "https://sap.com",
       badges: [],
-      title: "VT Intern",
-      start: "2023",
+      title: "Associate Software Engineer",
+      start: "2024.04",
       end: "present",
       description:
-        "Working on SAP's cloud data & service enablement team, focusing on building sustainable and available system. Also, I am working on a project to reduce the cost of development with Istio and Kubernetes.",
+        "HANA Cloud Service team",
+    },
+    {
+      company: "SAP Labs Korea",
+      link: "https://sap.com",
+      badges: [],
+      title: "VT Internship",
+      start: "2023.07",
+      end: "2024.03",
+      description:
+        "HANA Cloud Service team",
     },
     {
       company: "KI-ITC Augmented Reality Research Centre, KAIST",
-      link: "https://www.linkedin.com/company/kaistarrc/?originalSubdomain=kr",
-      badges: ["Remote"],
+      badges: [],
       title: "Undergraduate Researcher",
-      start: "2022",
-      end: "2023",
+      start: "2022.07",
+      end: "2023.06",
       description:
         "Developed an algorithm to estimate the level of sleep stage using a cardiorespiratory signals from smartmattress. Also, I implemented a system to analyze the incoming sleep data by using Node.js and AWS Lambda.",
     },
@@ -67,16 +70,11 @@ export const RESUME_DATA = {
     "Kubernetes",
     "Docker",
     "Istio",
-    "JavaScript",
-    "TypeScript",
-    "Node.js",
-    "PostgreSQL",
   ],
   projects: [
     {
       title: "KAIST Board of Audit and Inspection System",
       techStack: [
-        "Backend Developer",
         "TypeScript",
         "Node.js",
         "PostgreSQL",
@@ -90,12 +88,11 @@ export const RESUME_DATA = {
     {
       title: "The Voice",
       techStack: [
-        "Backend Developer",
-        "Google Cloud",
         "Team Leader",
         "TypeScript",
         "Node.js",
-        "AI",
+        "Google Cloud",
+        "BERT",
       ],
       description: "AI based scam detection system for preventing phishing attacks targeting seniors. Won global top 100 in Google Solution Challenge.",
       link: {
