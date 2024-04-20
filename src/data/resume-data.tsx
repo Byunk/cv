@@ -8,11 +8,12 @@ export const RESUME_DATA = {
   about:
     "Cloud Engineer @ SAP Labs Korea",
   summary:
-    "As a cloud engineer, I've contributed on architecting reliable and scalable microservices, running on complicated Kubernetes clusters. Currently, I've focused on improving development efficiency and reducing its cost by introducing Istio",
-  avatarUrl: "https://kyungho.me/static/images/profile.jpeg",
+    "As a cloud engineer, I have contributed to the architecture of reliable and scalable microservices deployed on complex Kubernetes clusters. Presently, I am focused on enhancing development efficiency and reducing costs with Istio.",
+  avatarUrl: "https://kyungho-me-bucket.s3.ap-northeast-2.amazonaws.com/static/images/profile.jpeg",
   personalWebsiteUrl: "https://kyungho.me",
   contact: {
     email: "kyungho.byoun@gmail.com",
+    tel: "",
     social: [
       {
         name: "GitHub",
@@ -28,7 +29,7 @@ export const RESUME_DATA = {
   },
   education: [
     {
-      school: "Korea Advanced Institute of Science and Technology (KAIST)",
+      school: "KAIST (Korea Advanced Institute of Science and Technology)",
       degree: "Bachelor's Degree in Aerospace Engineering and Computer Science",
       start: "2017",
       end: "2024",
@@ -57,6 +58,7 @@ export const RESUME_DATA = {
     },
     {
       company: "KI-ITC Augmented Reality Research Centre, KAIST",
+      link: "https://www.linkedin.com/company/kaistarrc/?originalSubdomain=kr",
       badges: [],
       title: "Undergraduate Researcher",
       start: "2022.07",
@@ -98,6 +100,30 @@ export const RESUME_DATA = {
       link: {
         label: "The Voice",
         href: "https://github.com/KAIST-Google-Solution-Challenge",
+      },
+    },
+    {
+      title: "Winning rate prediction of the chess game result with GNN",
+      techStack: [
+        "graph neural network",
+      ],
+      description: "Proposing a GATv2-based GNN model to utilize the structural information for chess game result prediction.",
+      link: {
+          label: "Winning rate prediction of the chess game result with GNN",
+          href: "https://github.com/Byunk/Winning-rate-prediction-of-the-chess-game-result-with-GNN",
+      },
+    },
+    {
+      title: "Korean Hate Speech Detection",
+      techStack: [
+        "NLP",
+        "BERT",
+        "XLM-R",
+      ],
+      description: "Korean Hate Speech Detection In Cross-lingual Transfer Learning Embedding Models.",
+      link: {
+          label: "Korean Hate Speech Detection",
+          href: "https://github.com/Byunk/Korean-Hate-Speech-Detection",
       },
     },
   ],
