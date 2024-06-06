@@ -5,11 +5,11 @@ export const RESUME_DATA = {
   initials: "BK",
   location: "Seoul, South Korea",
   locationLink: "https://www.google.com/maps/place/Seoul",
-  about:
-    "Cloud Engineer @ SAP Labs Korea",
+  about: "Software Engineer @ SAP Labs Korea",
   summary:
-    "As a cloud engineer, I have contributed to the architecture of reliable and scalable microservices deployed on complex Kubernetes clusters. Presently, I am focused on enhancing development efficiency and reducing costs with Istio.",
-  avatarUrl: "https://kyungho-me-bucket.s3.ap-northeast-2.amazonaws.com/static/images/profile.jpeg",
+    "As a software engineer, I have experience in developing and deploying scalable and reliable microservices on MSA architecture deployed on complex Kubernetes clusters. I am passionate about enhancing development efficiency and reducing costs in the cloud environment.",
+  avatarUrl:
+    "https://kyungho-me-bucket.s3.ap-northeast-2.amazonaws.com/static/images/profile.jpeg",
   personalWebsiteUrl: "https://kyungho.me",
   contact: {
     email: "kyungho.byoun@gmail.com",
@@ -40,11 +40,10 @@ export const RESUME_DATA = {
       company: "SAP Labs Korea",
       link: "https://sap.com",
       badges: [],
-      title: "Associate Software Engineer",
+      title: "Software Engineer",
       start: "2024.04",
       end: "present",
-      description:
-        "HANA Cloud Service team",
+      description: "Cloud Service Development",
     },
     {
       company: "SAP Labs Korea",
@@ -53,8 +52,7 @@ export const RESUME_DATA = {
       title: "VT Internship",
       start: "2023.07",
       end: "2024.03",
-      description:
-        "HANA Cloud Service team",
+      description: "Cloud Service Development",
     },
     {
       company: "KI-ITC Augmented Reality Research Centre, KAIST",
@@ -64,24 +62,16 @@ export const RESUME_DATA = {
       start: "2022.07",
       end: "2023.06",
       description:
-        "Developed an algorithm to estimate the level of sleep stage using a cardiorespiratory signals from smartmattress. Also, I implemented a system to analyze the incoming sleep data by using Node.js and AWS Lambda.",
+        "Developed a system to estimate the level of sleep stage using a cardiorespiratory signals. Cooperated with Kyungdong Navien, a leading company in condensing technology, to develop a sleep-tech product.",
     },
   ],
-  skills: [
-    "Python",
-    "Kubernetes",
-    "Docker",
-    "Istio",
-  ],
+  skills: ["Python", "Kubernetes", "Docker", "Istio"],
   projects: [
     {
       title: "KAIST Board of Audit and Inspection System",
-      techStack: [
-        "TypeScript",
-        "Node.js",
-        "PostgreSQL",
-      ],
-      description: "Developed a system to manage the audit and inspection process of KAIST.",
+      techStack: ["TypeScript", "Node.js", "PostgreSQL"],
+      description:
+        "Developed a system to manage the audit and inspection process of KAIST.",
       link: {
         label: "BAI KAIST",
         href: "https://github.com/gdsc-kaist/board-of-audit-and-inspection-system",
@@ -96,7 +86,8 @@ export const RESUME_DATA = {
         "Google Cloud",
         "BERT",
       ],
-      description: "AI based scam detection system for preventing phishing attacks targeting seniors. Won global top 100 in Google Solution Challenge.",
+      description:
+        "AI based scam detection system for preventing phishing attacks targeting seniors. Won global top 100 in Google Solution Challenge.",
       link: {
         label: "The Voice",
         href: "https://github.com/KAIST-Google-Solution-Challenge",
@@ -104,26 +95,22 @@ export const RESUME_DATA = {
     },
     {
       title: "Winning rate prediction of the chess game result with GNN",
-      techStack: [
-        "graph neural network",
-      ],
-      description: "Proposing a GATv2-based GNN model to utilize the structural information for chess game result prediction.",
+      techStack: ["graph neural network"],
+      description:
+        "Proposing a GATv2-based GNN model to utilize the structural information for chess game result prediction.",
       link: {
-          label: "Winning rate prediction of the chess game result with GNN",
-          href: "https://github.com/Byunk/Winning-rate-prediction-of-the-chess-game-result-with-GNN",
+        label: "Winning rate prediction of the chess game result with GNN",
+        href: "https://github.com/Byunk/Winning-rate-prediction-of-the-chess-game-result-with-GNN",
       },
     },
     {
       title: "Korean Hate Speech Detection",
-      techStack: [
-        "NLP",
-        "BERT",
-        "XLM-R",
-      ],
-      description: "Korean Hate Speech Detection In Cross-lingual Transfer Learning Embedding Models.",
+      techStack: ["NLP", "BERT", "XLM-R"],
+      description:
+        "Korean Hate Speech Detection In Cross-lingual Transfer Learning Embedding Models.",
       link: {
-          label: "Korean Hate Speech Detection",
-          href: "https://github.com/Byunk/Korean-Hate-Speech-Detection",
+        label: "Korean Hate Speech Detection",
+        href: "https://github.com/Byunk/Korean-Hate-Speech-Detection",
       },
     },
   ],
